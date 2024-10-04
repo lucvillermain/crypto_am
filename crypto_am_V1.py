@@ -17,8 +17,8 @@ import streamlit as st
 
 st.set_page_config(layout="wide")
 
-username_entered = st.secrets["database"]["username"]
-password_entered = st.secrets["database"]["password"]
+username_entered = st.secrets["username"]    #["database"]
+password_entered = st.secrets["password"]    #["database"]
 
 
 st.title('CRYPTAM')
